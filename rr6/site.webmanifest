@@ -1,0 +1,12 @@
+{
+  "short_name": "RR6",
+  "name": "Regicide Rumble 6",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#0c7fb6",
+  "theme_color": "#0c7fb6"
+}
