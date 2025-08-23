@@ -1,0 +1,37 @@
+.colourscheme-auto,
+[data-theme=dark] .colourscheme-dark,
+[data-theme=light] .colourscheme-light {
+    font-weight: bold;
+}
+
+[data-theme=dark] .colourscheme-auto,
+[data-theme=light] .colourscheme-auto {
+    font-weight: normal;
+}
+
+.card-content {
+    text-align: center;
+    padding: .7rem;
+    font-size: .7rem;
+}
+
+
+.card {
+    --bulma-card-radius: 0;
+}
+
+.table td:nth-child(4) {
+    text-align: end;
+}
+
+.content ol:not([type])  {
+    list-style-type: upper-alpha;
+}
+
+.content ol:not([type]) ol:not([type])  {
+    list-style-type: lower-alpha;
+}
+
+.field.is-grouped {
+    gap: .3rem;
+}
